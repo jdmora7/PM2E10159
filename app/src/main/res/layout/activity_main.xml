@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ListView
+        android:id="@+id/listViewContacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/buttonCallContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/llamar_contacto" />
+
+    <Button
+        android:id="@+id/buttonUpdateContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/actualizar_contacto" />
+
+    <Button
+        android:id="@+id/buttonDeleteContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminar_contacto" />
+
+    <Button
+        android:id="@+id/buttonShareContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compartir_contacto" />
+
+    <Button
+        android:id="@+id/buttonViewImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_imagen" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver" />
+
+</LinearLayout>

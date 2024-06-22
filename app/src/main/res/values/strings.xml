@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PM2E10159</string>
+    <string name="llamar_contacto">Llamar Contacto</string>
+    <string name="actualizar_contacto">Actualizar Contacto</string>
+    <string name="eliminar_contacto">Eliminar Contacto</string>
+    <string name="compartir_contacto">Compartir Contacto</string>
+    <string name="ver_imagen">Ver Imagen</string>
+    <string name="volver">Volver</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ListView
+            android:id="@+id/listViewContacts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttonCallContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamar Contacto" />
+
+        <Button
+            android:id="@+id/buttonUpdateContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Contacto" />
+
+        <Button
+            android:id="@+id/buttonDeleteContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar Contacto" />
+
+        <Button
+            android:id="@+id/buttonShareContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compartir Contacto" />
+
+        <Button
+            android:id="@+id/buttonViewImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Imagen" />
+
+        <Button
+            android:id="@+id/buttonReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewContacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <Button
+        android:id="@+id/buttonUpdateContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Contacto" />
+
+    <Button
+        android:id="@+id/buttonDeleteContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Contacto" />
+
+    <Button
+        android:id="@+id/buttonShareContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartir Contacto" />
+
+    <Button
+        android:id="@+id/buttonViewImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Imagen" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver" />
+
+</LinearLayout>
