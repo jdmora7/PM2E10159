@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
                 selectedPhoneNumber = contactDetails[2];
             }
         });
-
         buttonCallContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
